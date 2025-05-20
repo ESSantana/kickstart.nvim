@@ -10,4 +10,12 @@ return {
       nvimtree.setup()
     end,
   },
+  {
+    'mason-org/mason.nvim',
+    opts = {
+      ensure_installed = {
+        'gopls',
+      },
+    },
+  },
 }
